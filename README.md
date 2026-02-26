@@ -15,7 +15,7 @@ Uses Gemini 2.5 Flash with manual tool calling (no auto-execution). The agent ca
 ```bash
 cd gemini
 cp .env.example .env          # add your GOOGLE_API_KEY
-uv sync                       # or pip install google-genai httpx python-dotenv
+pip install google-genai httpx python-dotenv       # or uv sync 
 python agent.py
 ```
 
